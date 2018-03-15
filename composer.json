@@ -1,0 +1,42 @@
+{
+  "name": "songshenzong/essentials",
+  "description": "Essentials Methods for Laravel",
+  "keywords": [
+    "laravel",
+    "response",
+    "web"
+  ],
+  "license": "MIT",
+  "homepage": "http://songshenzong.com",
+  "support": {
+    "issues": "https://github.com/songshenzong/essentials/issues",
+    "source": "https://github.com/songshenzong/essentials"
+  },
+  "authors": [
+    {
+      "name": "Songshenzong",
+      "email": "i@songshenzong.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Songshenzong\\Essentials\\": "src/"
+    },
+    "files": [
+      "src/Helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Songshenzong\\Essentials\\ServiceProvider"
+      ],
+      "aliases": {
+        "SongshenzongApi": "Songshenzong\\Essentials\\Facade"
+      }
+    }
+  }
+}
