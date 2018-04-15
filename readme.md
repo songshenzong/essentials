@@ -1,5 +1,3 @@
-[![Songshenzong](https://songshenzong.com/images/logo.png)](https://songshenzong.com)
-
 [![Total Downloads](https://poser.pugx.org/songshenzong/essentials/d/total.svg)](https://packagist.org/packages/songshenzong/essentials)
 [![Latest Stable Version](https://poser.pugx.org/songshenzong/essentials/v/stable.svg)](https://packagist.org/packages/songshenzong/essentials)
 [![License](https://poser.pugx.org/songshenzong/essentials/license.svg)](https://packagist.org/packages/songshenzong/essentials)
